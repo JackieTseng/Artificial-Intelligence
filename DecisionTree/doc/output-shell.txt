@@ -1,0 +1,39 @@
+spliting dataset...(into doc/split)
+  data size: 435
+subset size: 43
+  remainder: 5
+
+set the threshold value to 0.00
+performing 10-fold cross-validation...
+	 Train Set	Test Set	Correct Rate
+	+--------------------------------------------
+	 0.train	0.test		97.674419%
+	 1.train	1.test		95.348837%
+	 2.train	2.test		97.674419%
+	 3.train	3.test		95.348837%
+	 4.train	4.test		97.674419%
+	 5.train	5.test		95.348837%
+	 6.train	6.test		93.023256%
+	 7.train	7.test		88.372093%
+	 8.train	8.test		88.372093%
+	 9.train	9.test		93.750000%
+	+--------------------------------------------
+	 average correct rate:		94.258721%
+
+
+performing 10-fold cross-validation for threshold value from 0.0 to 1.0 with increment 0.01...
+
+0.00,94.258721
+0.01,94.258721
+0.02,94.258721
+0.03,94.258721
+0.04,94.258721
+0.05,94.258721
+...(please wait for a few seconds)
+0.96,76.763565
+0.97,63.972868
+0.98,61.414728
+0.99,61.414728
+1.00,61.414728
+
+the useful data has been written into file picture/average.txt and picture/all.txt
