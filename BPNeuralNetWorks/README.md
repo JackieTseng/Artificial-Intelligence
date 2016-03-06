@@ -33,7 +33,7 @@ Examples(under root directory)
 1. train mode
 `./run.sh 0 167 0.1 0.4`
 
-2. seting mode
+2. set mode
 `./run.sh 1`
 
 
